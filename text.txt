@@ -1,0 +1,4 @@
+npm install expo-linear-gradient 
+https://www.svgviewer.dev/
+npm install react-native-svg
+npm install react-native-size-matters
