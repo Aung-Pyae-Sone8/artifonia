@@ -2,3 +2,8 @@ npm install expo-linear-gradient
 https://www.svgviewer.dev/
 npm install react-native-svg
 npm install react-native-size-matters
+https://www.cufonfonts.com/pedro-junior/collection/segoe-ui
+npm install @expo/vector-icons
+https://icons.expo.fyi/Index
+https://docs.expo.dev/versions/latest/sdk/async-storage/
+npx expo install @react-native-async-storage/async-storage

@@ -15,6 +15,7 @@ export default function RootLayout() {
   const colorScheme = useColorScheme();
   const [loaded] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    SegoeUI: require('../assets/fonts/Segoe-UI.ttf'),
   });
 
   useEffect(() => {
@@ -37,7 +38,8 @@ export default function RootLayout() {
         <Stack.Screen name="index"/>
         <Stack.Screen name="(tabs)"/>
         <Stack.Screen name='/(routes)/onboarding'/>
-        <Stack.Screen name="+not-found" />
+        <Stack.Screen name='/(routes)/home'/>
+        {/* <Stack.Screen name="+not-found" /> */}
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
