@@ -37,8 +37,8 @@ export default function RootLayout() {
       >
         <Stack.Screen name="index"/>
         <Stack.Screen name="(tabs)"/>
-        <Stack.Screen name='/(routes)/onboarding'/>
-        <Stack.Screen name='/(routes)/home'/>
+        <Stack.Screen name='(routes)/onboarding/index'/>
+        <Stack.Screen name='(routes)/home/index'/>
         {/* <Stack.Screen name="+not-found" /> */}
       </Stack>
       <StatusBar style="auto" />
