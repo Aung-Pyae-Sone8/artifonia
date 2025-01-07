@@ -66,7 +66,7 @@ export default function OnBoardingScreen() {
         onPress={handleSkip}
       >
         <Text style={styles.skipText}>Skip</Text>
-        <AntDesign name="arrowright" size={scale(18)} color="white" />
+        <AntDesign name="arrowright" style={{marginTop: 5}} size={scale(18)} color="white" />
       </Pressable>
       <ScrollView
         horizontal
