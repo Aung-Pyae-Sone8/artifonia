@@ -39,7 +39,6 @@ export default function OnBoardingScreen() {
   };
 
   const handleSkip = async () => {
-    console.log('pressed');
     const nextIndex = activeIndex + 1;
 
     if(nextIndex < onBoardingData.length){
@@ -64,7 +63,7 @@ export default function OnBoardingScreen() {
       <StatusBar barStyle="light-content" />
       <Pressable
         style={styles.skipContainer}
-        onPress={() => { console.log('pressed')}}
+        onPress={handleSkip}
       >
         <Text style={styles.skipText}>Skip</Text>
         <AntDesign name="arrowright" size={scale(18)} color="white" />
@@ -150,7 +149,7 @@ const styles = StyleSheet.create({
     right: scale(30),
     flexDirection: "row",
     gap: scale(5),
-    backgroundColor: "green"
+    zIndex: 1
   },
   skipText: {
     color: "#fff",
